@@ -1,0 +1,79 @@
+body{
+    background-color:rgb(148, 202, 204);
+    color:white;
+}
+.parent{
+    background-color:rgb(148, 202, 204);
+    color:black;
+    padding:30px;
+    width:100%;
+    height:100%;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    overflow:hidden;
+}
+.child{
+    background-color:darkcyan;
+    width:350px;
+    height:550px;
+}
+
+.subcard{
+    background-color:darkcyan;
+    width:100%;
+}
+.heading{
+    padding:10px;
+    background-color:rgb(49, 218, 218);
+}
+.para{
+    padding:10px;
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.image{
+    width:100%;
+    height:250px;
+
+}
+
+/*mobile*/
+@media (min-width:648px){
+    .parent{
+        background-color:rgb(148, 202, 204);
+        color:black;
+        padding:20px;
+        width:100%;
+        height:100%;
+        display:flex;
+        gap:20px;
+        flex-wrap:wrap;
+        overflow:hidden;
+    }
+    .child{
+        background-color:darkcyan;
+        width:350px;
+        height:550px;
+    }
+}
+/*tablets*/
+
+@media (min-width:1020px){
+    .parent{
+        background-color:rgb(148, 202, 204);
+        color:black;
+        padding:20px;
+        width:100%;
+        height:100%;
+        display:flex;
+        gap:20px;
+        flex-wrap:wrap;
+        overflow:hidden;
+    }
+    .child{
+        background-color:darkcyan;
+        width:350px;
+        height:550px;
+    }
+}
